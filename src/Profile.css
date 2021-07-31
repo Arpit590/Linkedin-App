@@ -264,6 +264,7 @@
         width: 100%;
         align-items: center;
         display: flex;
+        margin-top: 20px;
         flex: 1;
     }
 
