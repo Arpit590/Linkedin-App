@@ -39,10 +39,12 @@
 
 .home{
     padding: 3px;
+    color: black !important;
 }
 
-.people{
+.peoples{
     padding: 3px;
+    color: black !important;
 }
 
 .chat{
@@ -51,6 +53,7 @@
 
 .notification{
     padding: 3px;
+    color: black !important;
 }
 
 .home:hover{
@@ -58,7 +61,7 @@
     border-bottom: 4px solid black;
 }
 
-.people:hover{
+.peoples:hover{
     cursor: pointer;
     border-bottom: 4px solid black;
 }
@@ -123,6 +126,7 @@
         width: 100%;
         padding-right: 35px;
         gap: 10px;
+        margin-left: 0px;
     }
 }
 

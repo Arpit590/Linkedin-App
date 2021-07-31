@@ -4,9 +4,11 @@ import { Avatar } from '@material-ui/core';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import CreateIcon from '@material-ui/icons/Create';
+import Fade from "react-reveal/Fade";
 
 function MessageBox() {
     return (
+        <Fade right>
         <div className="messagebox">
             <div className="messagebox__container">
                 <div className="messagebox__avatar">
@@ -20,6 +22,7 @@ function MessageBox() {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 

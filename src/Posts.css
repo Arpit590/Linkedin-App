@@ -21,10 +21,16 @@
     margin-bottom: 20px;
 }
 
-.posts__search>input{
+.posts__search>form{
+    display: flex;
+    width: 100%;
+}
+
+.post__input{
      border-radius: 20px;
      padding: 10px;
      width: 100%;
+     display: flex;
      color: #242424;
      outline: none;
 }

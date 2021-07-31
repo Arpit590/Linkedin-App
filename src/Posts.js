@@ -8,12 +8,14 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 import EventIcon from '@material-ui/icons/Event';
 
 function Posts() {
+
     return (
         <div className="posts">
             <div className="posts__nav">
                 <div className="posts__search">
                     <Avatar src="./assets/zayn.jpg"/>
-                    <input type="text" placeholder="Start a post"/>
+                    <input type="text" 
+                     className="post__input" placeholder="Start a post"/>
                 </div>
                 <div className="posts__icon">
                     <div className="icon">
@@ -56,12 +58,12 @@ function Posts() {
                  info="Android Developer"
                  avatarsrc="./assets/avatar1.jpg"
                  time="3d"/>
-                 <Post imgsrc="./assets/android.jpg"
-                 name="John Deep"
-                 description="Android Studio is the official integrated development environment for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development"
-                 info="Android Developer"
-                 avatarsrc="./assets/avatar1.jpg"
-                 time="3d"/>
+                 <Post imgsrc="./assets/background1.jpg"
+                 name="Lionel Messi"
+                 description="Search engine optimization is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO targets unpaid traffic rather than direct traffic or paid traffic."
+                 info="GOAT | Developer"
+                 avatarsrc="./assets/avatar3.jpg"
+                 time="5d"/>
             </div>
         </div>
     )

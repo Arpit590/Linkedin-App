@@ -6,10 +6,11 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import CommentIcon from '@material-ui/icons/Comment';
 import SendIcon from '@material-ui/icons/Send';
 import ShareIcon from '@material-ui/icons/Share';
-
+import Fade from "react-reveal/Fade";
 
 function Post({imgsrc, avatarsrc, time, info, description, name}) {
     return (
+        <Fade bottom>
         <div className="post">
             <div className="post__profile">
                 <div className="post__avatar">
@@ -45,6 +46,7 @@ function Post({imgsrc, avatarsrc, time, info, description, name}) {
 
             </div>
         </div>
+        </Fade>
     )
 }
 

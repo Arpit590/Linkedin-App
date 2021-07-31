@@ -22,8 +22,12 @@ function Navbar() {
                 </div>
             </div>
             <div className="navbar__right">
+                <Link to="/">
                 <HomeIcon className="home"/>
-                <PeopleIcon className="people"/>
+                </Link>
+                <Link to="/network">
+                <PeopleIcon className="peoples"/>
+                </Link>
                 <ChatIcon className="chat"/>
                 <NotificationsIcon className="notification"/>
                 <div className="avatar">

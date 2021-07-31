@@ -2,10 +2,11 @@ import React from 'react'
 import "./Feeds.css";
 import HelpIcon from '@material-ui/icons/Help';
 import DiscFullIcon from '@material-ui/icons/DiscFull';
-
+import Fade from "react-reveal/Fade";
 
 function Feeds() {
     return (
+        <Fade right>
         <div className="feeds">
             <div className="feeds__container">
                 <div className="feeds__info">
@@ -49,6 +50,7 @@ function Feeds() {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 

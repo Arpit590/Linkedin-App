@@ -1,5 +1,6 @@
 .profile1{
     display: flex;
+    background-color: lightgray;
 }
 
 .profile__container{

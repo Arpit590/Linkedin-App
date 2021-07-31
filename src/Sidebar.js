@@ -2,9 +2,11 @@ import { Avatar } from '@material-ui/core';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Sidebar.css";
+import Fade from "react-reveal/Fade";
 
 function Sidebar() {
     return (
+        <Fade left>
         <div className="sidebar">
             <img src="./assets/background.png" alt="background"/>
             <Avatar src="./assets/Avatar.jpg" className="avatar1"/>
@@ -36,6 +38,7 @@ function Sidebar() {
                     </ul>
             </div>
         </div>
+        </Fade>
     )
 }
 

@@ -3,11 +3,14 @@ import React from 'react'
 import "./Profile.css";
 import AddIcon from '@material-ui/icons/Add';
 import EditIcon from '@material-ui/icons/Edit';
+import Fade from "react-reveal/Fade";
+
 
 function Profile() {
     return (
         <div className="profile1">
             <div className="profile__container">
+                
                 <div className="profile__data">
                     <div className="profile__datacontainer">
                     <img src="./assets/background.png" alt="background"/>
@@ -72,10 +75,13 @@ function Profile() {
                             </div>
                         </div>
                         </div>
+                       
                     
                     </div>
-
                 </div>
+               
+
+                <Fade right>
                 <diV className="profile__suggestions">
                     <h1>People also viewed</h1>
                     <diV className="profile__people">
@@ -143,6 +149,7 @@ function Profile() {
                         </div>
                     </diV>
                 </diV>
+                </Fade>
             </div> 
         </div>
     )

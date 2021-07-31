@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './HomePage';
 import MessageBox from './MessageBox';
 import Navbar from './Navbar';
+import Network from './Network';
 import Profile from './Profile';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
         </Route>
         <Route path="/profile">
           <Profile/>
+        </Route>
+        <Route path="/network">
+          <Network/>
         </Route>
       </Switch>
       <MessageBox/>
