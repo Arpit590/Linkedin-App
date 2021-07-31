@@ -1,0 +1,32 @@
+.messagebox{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.messagebox__container{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.messagebox__avatar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.messagebox__icons{
+    display: flex;
+    gap: 5px !important;
+}
+
+.messagebox__avatar>p{
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.homepage{
+    display: flex;
+}
+
+.homepage__container{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+    flex: 1;
+    align-items: baseline;
+    gap: 30px;
+    background-color: rgba(0,0,0,0.12);
+}
+
+
+
+@media screen and (max-width: 960px){
+    .homepage__container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
