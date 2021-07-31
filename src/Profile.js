@@ -29,7 +29,7 @@ function Profile() {
                         </div>
                         <div className="profile__about">
                             <h1>About</h1>
-                            <p>I'm Arushi, born and brought up in Noida. I pursued my graduation in B.com (hons) from University of Delhi. I chose the very field because of my affinity for numbers combined with my logical approach to every scenario and willingness to discover the real business world. That 3 years journey gave me a great exposure towards society</p>
+                            <p>'Myself Arpit Saxena! I am currently pursuing Btech from GTBIT(IPU). Apart from this, I am really well versed in React, Javascript, Redux, HTML, CSS, and firebase.'</p>
                         </div>
 
                         <div className="profile__experiences">
